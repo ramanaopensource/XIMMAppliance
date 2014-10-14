@@ -44,7 +44,7 @@
       
       	<c:forEach items="${appliances}" var="appliance">
     		<tr>
-        		<td> <c:out value="${appliance.applianceId}"/></td>
+        		<td><a href="/XIMMAppliance/TabPage.jsp"><c:out value="${appliance.applianceId}"/></a></td>
         		<td> <c:out value="${appliance.applianceAddress}"/></td>  
         		<td> <c:out value="${appliance.applianceState}"/></td>
         		<td> <c:out value="${appliance.applianceCores}"/></td>
